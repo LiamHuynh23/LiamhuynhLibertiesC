@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="CSS stylesheet" type="text/css" href="CSS style project(Liam).css">
+
+    <style>
+        body {
+            background-image: url("Backgrounds/the-sun-shines-on-the-flowers-and-the-mountains-in-this.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 1600px, 1600px;
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Cat_Comic';
+        }
+        h2 {
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Info Story';
+            color: white;
+        }
+        .sticky {
+            position: sticky;
+            top: 0px;
+            text-align: center;
+            font-family: 'Info Story';
+            font-size: 40px;
+        }
+        @font-face {
+            font-family: 'Cat_Comic';
+            src: url('Fonts/Cat Comic.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Info Story';
+            src: url('Fonts/Info Story.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Campana';
+            src: url('Fonts/Campana.otf') format('truetype');
+        }
+        .Font1 {
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Info Story'
+        }
+
+        .Font2 {
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Info Story'
+        }
+    </style>
+
+    <header>
+        <body1>
+            <img src="Liam's Logo.png" alt="Liam's Logo" height="100" width="300" class="center" style="padding-bottom: 300px;">
+        </body1>
+    </header>
+
+    <body>
+        <div class="h2">
+            <h2>Swipe down</h2>
+            <img src="Icons/White Scroll Down Icon with border.png" alt="Scroll Down Icon" height="50" width="50" class="center">
+        </div>
+    </body>
+
+    <div class="sticky">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="Photography.html">Photography</a></li>
+                <li><a href="Experience.html">Experience</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Credit.html">Credits</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+
+        <article>
+            <h1>Hello, I'm Liam Huynh</h1>
+        </article>
+
+        <article>
+            <div class="Font1">
+                <h3>About me:</h3>
+            </div>
+        </article>
+
+        <article>
+            <div class="Font2">
+                <p>I'm a software development student at Liberties College. I recently studied for exams and learned a lot of things from the course.</p>
+                <p2>In my free time, I like to learn more about cybersecurity, networking and a bit about software. I also love playing video games, talk with friends and watch films on Netflix as well. I'm very interested in learning more about photoshop, cybersecurity and game design.</p2>
+            </div>
+        </article>
+
+        <article>
+            <div class="Font2">
+                <p>This is my favourite music from the game I used to listen.</p>
+                <audio controls>
+                    <source src="Arcaea - Testify Official Music void (Mournfinale) feat.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </article>
+
+        <article>
+            <div class="Font2">
+                <p>This is a script I created and it allows you to display Date and Time here.</p>
+                <button type="button"
+                        onclick="document.getElementById('demo').innerHTML = Date()">
+                    Click this to display your Date and Time.
+                </button>
+
+                <p id="demo"></p>
+            </div>
+        </article>
+
+        <article>
+            <div class="Font2">
+                <p2>I created this picture below, I was using Photoshop to create Big cat on it after I took a picture when I was at outside in front of Liberties College Building.</p2>
+
+                <img src="Backgrounds/Big Cats Made by Liam.png" alt="Big Cats created by Liam H." width="1000" class="center">
+            </div>
+        </article>
+    </section>
+
+</head>
+
+<footer>
+    <em>&copy; Copyright, Made by Liam H.</em>
+</footer>
+
+</html>
