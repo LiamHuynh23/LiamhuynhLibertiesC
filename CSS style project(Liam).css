@@ -37,12 +37,6 @@ nav {
     margin-top: 20px;
 }
 
-nav a {
-    border: 5px;
-    margin: 1px;
-    color: red;
-}
-
 li a {
     color: white;
 }
