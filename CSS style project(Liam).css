@@ -41,6 +41,7 @@ nav a {
     display: block;
     border: 5px;
     margin: 10px;
+    color: red;
 }
 
 li a {
