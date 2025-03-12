@@ -40,6 +40,7 @@ nav {
 nav a {
     display: block;
     border: 5px;
+    margin: 10px;
 }
 
 li a {
