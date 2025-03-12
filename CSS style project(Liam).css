@@ -38,6 +38,7 @@ nav {
 }
 
 nav a {
+    display: block;
     border: 5px;
 }
 
